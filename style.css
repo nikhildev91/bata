@@ -1,0 +1,397 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #e5e5e5;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.first_header{
+    display: flex;
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 43px;
+    
+}
+.customer{
+    float: left;
+    width: 120%;
+}
+.customer_care{
+    padding: 10px 15px;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.right{
+    width: 50%;
+    font-size: 14px;
+    padding-left: 115px;
+    margin-top: 10px;
+
+}
+.right_menu{
+    margin-left: auto;
+    padding: 14px;
+    text-decoration: none;
+    color: black;
+}
+.logo_header{
+    background-color: #fff;
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.logo{
+    
+    width: 100%;
+    height: 60px;
+}
+.logo_img{
+    margin-top: 29px;
+margin-left: 60%;
+}
+.login{
+    
+    width: 47%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.login_icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18px;
+    padding-left: 50px;
+}
+.login_img1{
+    width: 59%;
+height: 23px;
+}
+.login_icon_text{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.second_header{
+    background-color:white;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+}
+.navbar{
+    width: 42%;
+    height: 65px;
+    background-color: white;
+    margin-left: 228px;
+    display: flex;
+    flex-direction: row;
+}
+.menu{
+
+    padding-left: 44px;
+padding-top: 28px;
+
+
+}
+.menu:hover{
+    border-bottom: 2px solid red;
+}
+.search_box{
+    
+    width: 30%;
+    height: 65px;
+    background-color: white;
+    
+    flex-direction: row;
+}
+.search_box input{
+    width: 140px;
+height: 30px;
+border: none;
+border-bottom: 1px solid black;
+
+} 
+.search{
+    margin-top: 20px;
+}
+.attraction{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1px;
+}
+.atrt{
+    width: 560px;
+    height: 30px;
+    margin-left: 320px;
+    margin-top: 14px;
+}
+.atrts{
+  
+    padding-left: 68px;
+    font-size: 13px;
+    color: #a2a2a2;
+    
+}
+.main_body{
+    width: 100%;
+    height: 3980px;
+    background-color:white;
+    margin-top: 1px;
+    
+}
+.main_banner{
+   width: 1235;
+   height: 1502px;
+   background-color: white;
+  margin: 10px;
+   
+}
+.bannerImg{
+    margin: 10px;
+    margin-right: 10px;
+}
+.circle{
+   margin-left: 588px;
+    
+    width: 88px;
+    height: 21px;
+    display: flex;
+}
+.crc{
+    margin-left: 7px;
+    color: #e5e5e5;
+}
+.crc:hover{
+    color: black;
+}
+.item_img1{
+    width: 1235px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 14px;
+    display: flex;
+    flex-direction: row;
+}
+.f_img{
+    width: 612;
+    height: 400px;
+    display: flex;
+}
+.f_img img{
+    margin-left: 10px;
+}
+.item_img2{
+    width: 1234px;
+    height: 380px;
+    margin-top: 65px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.details{
+    margin-left: 37px;
+    margin-top: 85px;
+}
+.title{
+font-weight: 600;
+font-size: 20px;
+}
+.para{
+    margin-top: 15px;
+}
+.details button{
+    width: 270px;
+margin-top: 28px;
+height: 44px;
+background-color: white;
+border: 1px solid black;
+font-size: 14px;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.item_img3{
+    width: 1234px;
+    height: 390px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+}
+.item_img3 img{
+    margin-left: 17px;
+}
+.ad{
+    width: 1230px;
+    height: 190px;
+    margin-left: 10px;
+}
+.item_img5{
+    width: 1235px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 14px;
+    display: flex;
+    flex-direction: row;
+}
+
+.best_seller{
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+    margin-top: 1px;
+}
+.b_seller{
+    padding-left: 565px;
+padding-top: 25px;
+font-size: 24px;
+}
+
+.shoes{
+   background-color: #fff ; 
+   width: 1234;
+   height: 325px;
+   display: flex;
+   flex-direction: row;
+}
+.shoe_img{
+    width: 300px;
+    height: 300px;
+   
+    margin-top: 12px;
+    margin-left: 10px;
+    display: flex;
+}
+.final_body{
+    background-color: white;
+    width: 100%;
+    height: 1540px;
+}
+.explore_img{
+   padding: 5px;
+}
+.offers{
+    width: 1234px;
+    height: 410px;
+    margin-left: 15px;
+    margin-top: 80px;
+    padding-top: 5px;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.offer{
+    width: 410px;
+    height: 410px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+}
+.more_info{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+.more_info p{
+    color: #fff;
+    padding-top: 17px;
+padding-left: 318px;
+}
+.img{
+    width: 100%;
+    height: 272px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+}
+.footer_list{
+    width: 265px;
+    height: 286px;
+}
+.list{
+    margin-top: 60px;
+margin-left: 31px;
+}
+.list_titles{
+    font-weight: bold;
+    font-size: 13px;
+}
+.lists{
+    font-size: 12px;
+    list-style: none;
+    margin-top: 7px;
+}
+.lists:hover{
+  border-bottom: 1px solid black;
+}
+.socialmedia{
+    width: 465px;
+    height: 286px;
+}
+.media{
+    margin-left: 130px;
+    margin-top: 60px;
+    width: 100px;
+    
+}
+.media_icons{
+    width: 290px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 110px;
+margin-top: 10px;
+}
+.icons{
+    margin-left: 10px;
+}
+.media_icons i{
+    font-size: 32px;
+padding-left: 10px;
+}
+.final_footer{
+    width: 100%;
+    height: 70px;
+    
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.id1{
+    width: 80%;
+    height: 50px;
+    
+}
+.id1 p{
+    font-size: 14px;
+
+padding-top: 14px;
+padding-left: 37px;
+}
+.id2{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    margin-left: 70px;
+}
+.line{
+    width: 100%;
+    height: 85px;
+   
+}
+.line p{
+    margin-left: 525px;
+    margin-top: 40px;
+    font-size: 13px;
+    font-weight: bold;
+}
